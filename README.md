@@ -24,7 +24,7 @@
 - How to measure model performance (accuracy)
 - How to choose hyperparameter (K)
 
-### 2.Bias-Variance Trade-Off
+## 2.Bias-Variance Trade-Off
 <img width="501" alt="Screenshot 2023-12-21 at 3 53 00 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/54207042-1ad5-4995-bd18-ae5f34ac8b73">
 
 - We observe that as λ increases, the Bias2 increases, while the variance decreases. 
