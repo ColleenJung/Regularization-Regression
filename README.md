@@ -27,15 +27,15 @@
 - Cross-Validation is a resampling technique with the fundamental idea of splitting the dataset into 2 parts- training data and test data
 -Train data is used to train the model and the unseen test data is used for prediction.
 
-## What are the benefits of L1 and L2?
+### What are the benefits of L1 and L2?
 - L2 regularization, also known as ridge regression, helps to prevent overfitting by penalizing large parameter values.
 - On the other hand, L1 regularization, also known as Lasso regression, encourages sparsity in the model by setting some coefficients to zero, which can help with feature selection.
 
-## L1 vs L2
+### L1 vs L2
 ### Ridge: It works well with multicollinearity.
 - However, it never shrinks a coefficient to be zero and the final model will include all predictors, which is not good for feature reduction.
 
-#### Lasso: It helps with variable selection by shrinking parameter estimates to 0. 
+### Lasso: It helps with variable selection by shrinking parameter estimates to 0. 
 - However, Lasso will suffer when two or more variables are strongly correlated. It only selects one of them randomly, which is not good for the interpretation of data.
 - Lasso penalty is vulnerable to colinearity
 
