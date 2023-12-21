@@ -26,6 +26,7 @@
 
 ### 2. Bias-Variance Trade-Off
 <img width="501" alt="Screenshot 2023-12-21 at 3 53 00 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/54207042-1ad5-4995-bd18-ae5f34ac8b73">
+
 - We observe that as λ increases, the Bias2 increases, while the variance decreases. 
 - The cause can be explained in different ways. For example, by adding the penalty, we are changing the optimizer of the ℓ2ℓ2 loss function. 
 - This causes the bias, but has the benefit of making the objective function more convex. 
@@ -37,10 +38,13 @@
 - Cross-Validation is a resampling technique with the fundamental idea of splitting the dataset into 2 parts- training data and test data
 -Train data is used to train the model and the unseen test data is used for prediction.
 
-### We will compare two approaches: the k-fold cross-validation using cv.glmnet(), and the generalized cross-validation (GCV) using the lm.ridge() function.
+### We will compare two approaches: 
+### the k-fold cross-validation using cv.glmnet(), and the generalized cross-validation (GCV) using the lm.ridge() function.
 #### lm.ridge() function
+
 <img width="792" alt="Screenshot 2023-12-21 at 3 56 42 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/f8205a21-9389-4b58-8df1-c26d36a38bea">
 <img width="725" alt="Screenshot 2023-12-21 at 3 56 50 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/8e346e2b-2368-4ab6-8106-3b5a2f45a63b">
+
 - It shows that λ=15 is the best value. Now let’s write a cross-validation to calculate the corresponding error.
 
 <img width="782" alt="Screenshot 2023-12-21 at 4 00 57 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/f71b088b-d817-4abb-a007-33e2ce1a323a">
