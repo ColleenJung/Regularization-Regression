@@ -74,11 +74,11 @@
 ## 5.Lasso Regression(L1 regularization)
 - fuction = OLS + alpha * sum(absolute_value(parameter))
 
-## 6. ROC Curve with Logistic Regression
-- logistic regression output is probabilities
+## 6. ROC Curve 
 - If probability is higher than 0.5 data is labeled 1(abnormal) else 0(normal)
 - By default logistic regression threshold is 0.5
 - ROC is receiver operationg characteristic. 
 - In this curve x axis is false positive rate and y axis is true positive rate
 - If the curve in plot is closer to left-top corner, test is more accurate.
-<img width="714" alt="Screenshot 2023-12-21 at 3 50 33 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/84523e77-9a1e-450d-ad99-7b06cbb01500">
+
+
