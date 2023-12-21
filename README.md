@@ -24,7 +24,7 @@
 - How to measure model performance (accuracy)
 - How to choose hyperparameter (K)
 
-### 2. Bias-Variance Trade-Off
+### 2.Bias-Variance Trade-Off
 <img width="501" alt="Screenshot 2023-12-21 at 3 53 00 PM" src="https://github.com/ColleenJung/Regularization-Regression/assets/119357849/54207042-1ad5-4995-bd18-ae5f34ac8b73">
 
 - We observe that as λ increases, the Bias2 increases, while the variance decreases. 
@@ -34,7 +34,7 @@
 - The two trades-off and the sum display a U-shaped curve. 
 - If we are asked to pick a λ value, we should pick the one that gives the smallest sum.
 
-## 3. Cross Validation
+## 3.Cross Validation
 - Cross-Validation is a resampling technique with the fundamental idea of splitting the dataset into 2 parts- training data and test data
 -Train data is used to train the model and the unseen test data is used for prediction.
 
@@ -60,7 +60,7 @@
 - L2 regularization, also known as ridge regression, helps to prevent overfitting by penalizing large parameter values.
 - On the other hand, L1 regularization, also known as Lasso regression, encourages sparsity in the model by setting some coefficients to zero, which can help with feature selection.
 
-### L1 vs L2
+## L1 vs L2
 ### Ridge: It works well with multicollinearity.
 - However, it never shrinks a coefficient to be zero and the final model will include all predictors, which is not good for feature reduction.
 
