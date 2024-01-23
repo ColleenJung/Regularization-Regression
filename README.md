@@ -1,5 +1,5 @@
 # Supervised Learning
-1. K-Nearest Neightbors(KNN)[KNN]
+1. K-Nearest Neightbors(KNN)
 2. Bias-Variance Trade-Off
 3. Cross-Validation
 4. Lasso Regression
